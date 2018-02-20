@@ -1,9 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import { trigger, style, transition, animate, keyframes, query, stagger } from '@angular/animations'
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
+  animations: [
+    
+  ]
 })
 export class HomeComponent implements OnInit {
 
